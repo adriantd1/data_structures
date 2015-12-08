@@ -47,8 +47,3 @@ def query(f, id, n, start, end, left, right):
 	l = query(f, id, 2*n, start, mid, left, right)
 	r = query(f, id, 2*n+1, mid+1, end, left, right) 
 	return f(l,r)
-	
-build(f, 1, 0, 5)
-update(f,1,0,5,5,132124)
-print(query(f, 0, 1, 0, 5, 0, 2))
-print(tree)
