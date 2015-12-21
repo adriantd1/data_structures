@@ -1,7 +1,7 @@
 # implementation of a general purpose segmented tree. The tree stores
 # a property (sum, multiplication, gcd, ...) given by the function f
 # on an interval. The tree support updates and querying. 
-
+ 
 ar = [1,3,5,7,9,11]
 #list of size 2*len(ar)
 tree = [0 for x in range(2*len(ar)+2)]
